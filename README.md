@@ -23,3 +23,8 @@
 ```
 * 打开helloworld.cpp 点击Run/Run Without Debugging（或者Ctrl + F5） 运行hello world文件
 * 打开main.cpp 点击Run/Run Without Debugging（或者Ctrl + F5） 运行OpenGL空窗口文件
+
+
+> 学习顺序
+
+1. hellowindow.cpp
