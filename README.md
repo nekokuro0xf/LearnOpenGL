@@ -30,4 +30,6 @@
 > 学习顺序
 
 1. hellowindow.cpp
-1. hellotriangle.cpp
+2. hellotriangle.cpp
+3. hellotriangle2.cpp
+4. shader.cpp
