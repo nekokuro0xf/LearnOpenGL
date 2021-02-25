@@ -33,3 +33,5 @@
 2. hellotriangle.cpp
 3. hellotriangle2.cpp
 4. shader.cpp
+5. shader2.cpp
+6. texture.cpp
