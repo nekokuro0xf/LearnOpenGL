@@ -2,3 +2,6 @@
 .vscode
 *.exe
 */glm
+*/imgui
+*.ttf
+lib/glew32*
