@@ -38,4 +38,38 @@
 7. transformations.cpp
 8. coordinatesystem.cpp
 9. 配置imgui/添加中文字体
-10. camera.cpp
+10. 整理代码封装函数
+11. camera.cpp
+
+
+```json
+...
+//task.json 添加imgui参数配置
+"args": [ 
+    "-g",
+    "${file}",
+    "-std=c++17",
+    "-I./include",
+    "-I./include/imgui",
+    "-I./include/imgui/backends",
+    "-L./lib",
+    "src/glad.c",
+    "include/imgui/imgui.cpp",
+    "include/imgui/imgui_draw.cpp",
+    "include/imgui/imgui_tables.cpp",
+    "include/imgui/imgui_widgets.cpp",
+    "include/imgui/backends/imgui_impl_glfw.cpp",
+    "include/imgui/backends/imgui_impl_opengl3.cpp",
+    "-lglfw3dll",
+    "-o",
+    "${workspaceFolder}\\build\\${fileBasenameNoExtension}.exe"
+],
+
+//setting.json 添加include
+...
+"C_Cpp.default.includePath": [
+    //加上imgui的目录
+    "${workspaceFolder}/include/imgui",
+    "${workspaceFolder}/include/imgui/backends",
+],
+...
